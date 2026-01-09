@@ -28,7 +28,7 @@
 
 1.  Clone the repository:
     ```bash
-    git clone https://github.com/javobernardo/trailwatcher.git
+    git clone https://github.com/fatguru/trailwatcher
     ```
 
 2.  Install dependencies:
