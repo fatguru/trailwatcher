@@ -47,13 +47,13 @@
 ### 1. Basic Audit
 Shows current details, history, and lists all subdomains.
 ```bash
-python3 trail_watcher.py -k YOUR_API_KEY -d strike.sh
+python3 trail_watcher.py -k YOUR_API_KEY -d example.com
 ```
 ### 2. Advanced Scan with Export + HTTPX
 Saves subdomains to a file and checks for live hosts.
 
 ```bash
-python3 trail_watcher.py -k YOUR_API_KEY -d strike.sh --httpx -o results.txt
+python3 trail_watcher.py -k YOUR_API_KEY -d example.com --httpx -o results.txt
 ```
 
 ### 3. Continuous Monitoring (Alerts)
@@ -62,13 +62,13 @@ Ideal for CRON jobs. If new subdomains are found, an alert is sent.
 Via Telegram:
 
 ```Bash
-python3 trail_watcher.py -k YOUR_KEY -d strike.sh --tg-token "1234:ABC..." --tg-chat "999888"
+python3 trail_watcher.py -k YOUR_KEY -d example.com --tg-token "1234:ABC..." --tg-chat "999888"
 ```
 
 Via Notify (ProjectDiscovery):
 
 ```Bash
-python3 trail_watcher.py -k YOUR_KEY -d strike.sh --notify
+python3 trail_watcher.py -k YOUR_KEY -d example.com --notify
 ```
 
 ### 🤖 Automation (Cron)
