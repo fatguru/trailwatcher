@@ -28,12 +28,12 @@
 
 1.  Clone the repository:
     ```bash
-    git clone [https://github.com/javobernardo/TrailWatcher.git](https://github.com/javobernardo/TrailWatcher.git)
-    cd TrailWatcher
+    git clone https://github.com/javobernardo/trailwatcher.git
     ```
 
 2.  Install dependencies:
     ```bash
+    cd TrailWatcher
     pip install -r requirements.txt
     ```
 
